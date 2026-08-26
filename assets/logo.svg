@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+  <rect width="1600" height="1600" fill="#ffffff"/>
+
+  <!-- Monogram -->
+  <g transform="translate(0,10)">
+    <!-- Gold outer arc -->
+    <path d="M 525 280
+             C 720 130, 1035 170, 1115 360
+             C 1160 465, 1135 620, 1050 710
+             C 955 810, 790 830, 670 760"
+          fill="none" stroke="#B88935" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Black C -->
+    <path d="M 900 320
+             C 840 255, 755 230, 675 240
+             C 540 258, 455 370, 455 510
+             C 455 660, 555 765, 700 775
+             C 780 780, 845 758, 900 708"
+          fill="none" stroke="#111111" stroke-width="48" stroke-linecap="square"/>
+
+    <!-- T -->
+    <line x1="650" y1="390" x2="930" y2="390" stroke="#111111" stroke-width="42"/>
+    <line x1="790" y1="390" x2="790" y2="760" stroke="#111111" stroke-width="42"/>
+
+    <!-- Gold inset on T -->
+    <path d="M 790 515 L 790 760" stroke="#B88935" stroke-width="12"/>
+    <path d="M 790 515 L 830 555" stroke="#B88935" stroke-width="12"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="800" y="980" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="98" letter-spacing="18" fill="#111111">
+    COMMON THREAD
+  </text>
+
+  <!-- Holdings rule + label -->
+  <line x1="170" y1="1065" x2="520" y2="1065" stroke="#B88935" stroke-width="3"/>
+  <text x="800" y="1085" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="56" letter-spacing="18" fill="#B88935">
+    HOLDINGS
+  </text>
+  <line x1="1080" y1="1065" x2="1430" y2="1065" stroke="#B88935" stroke-width="3"/>
+
+  <!-- Divider -->
+  <line x1="750" y1="1135" x2="850" y2="1135" stroke="#111111" stroke-width="3"/>
+
+  <!-- Tagline -->
+  <text x="800" y="1215" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="28" letter-spacing="7" fill="#111111">
+    STRONG ROOTS. SHARED VISION. GENERATIONAL WEALTH.
+  </text>
+</svg>
