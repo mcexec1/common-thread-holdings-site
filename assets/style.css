@@ -149,13 +149,6 @@ section.alt .section-head p { color: rgba(244,241,234,0.7); }
 .card h3 { font-size: 21px; margin-bottom: 12px; }
 .card p { font-size: 14.5px; color: rgba(17,17,17,0.66); margin: 0 0 18px; }
 
-/* Company card top row (number + status) */
-.card .card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
-.card .card-top .num { margin-bottom: 0; }
-.status { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; padding: 4px 9px; border-radius: 20px; }
-.status.live { color: #3E6B4F; background: rgba(62,107,79,0.1); }
-.status.dev { color: rgba(17,17,17,0.45); background: rgba(17,17,17,0.06); }
-
 /* Clickable company card */
 a.card { display: block; transition: background 0.2s; }
 a.card:hover { background: #fff; }
@@ -165,7 +158,6 @@ a.card:hover h3 { color: var(--gold); transition: color 0.2s; }
   color: var(--gold); display: inline-flex; align-items: center; gap: 6px;
 }
 a.card:hover .visit { text-decoration: underline; }
-div.card .visit { color: rgba(17,17,17,0.35); }
 
 .industry-row {
   display: flex; align-items: flex-start; gap: 28px;
